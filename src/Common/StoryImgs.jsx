@@ -12,7 +12,7 @@ function StoryImgs() {
             {
                 imgs.map((img, idx) =>
                     <Card key={idx} >
-                        <Card.Img variant="top" src={imgPath + '/' + img} />
+                        <Card.Img variant="top" src={imgPath + img} alt={img} />
                         <Card.Body >
                             <Card.Title>{cardTitle[idx].toUpperCase()}</Card.Title>
                             <Card.Text>
