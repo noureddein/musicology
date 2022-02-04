@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom'
 import './styles/navbar.css'
-const searchIcon = 'assets/search.png';
-const logo = 'assets/logo.png';
+const searchIcon = 'assets/search.webp';
+const logo = 'assets/logo.webp';
 
 const header = ['home', 'products', 'promo', 'about', 'contact']
 

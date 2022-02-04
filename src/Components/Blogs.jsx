@@ -5,12 +5,12 @@ const blogsData = {
     blog1: {
         title: 'amazing dance',
         subTitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.',
-        imgPath: './assets/story_imgs/img2.png'
+        imgPath: './assets/story_imgs/img2.webp'
     },
     blog2: {
         title: 'best dance',
         subTitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.',
-        imgPath: './assets/story_imgs/img1.png'
+        imgPath: './assets/story_imgs/img1.webp'
     }
 }
 

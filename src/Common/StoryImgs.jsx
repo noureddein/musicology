@@ -4,7 +4,7 @@ import '../Components/styles/story.css';
 
 function StoryImgs() {
     const imgPath = '../assets/story_imgs/';
-    const imgs = ['img1.png', 'img2.png', 'img3.png']
+    const imgs = ['img1.webp', 'img2.webp', 'img3.webp']
     const cardTitle = ['america', 'asia', 'australia']
 
     return (

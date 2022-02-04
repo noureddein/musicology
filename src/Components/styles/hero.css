@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 
 .heroContainer {
-    background-image: url("../../../public/assets/hero_background.jpg");
+    background-image: url("../../../public/assets/hero_background.webp");
     background-repeat: no-repeat;
     background-position: 27% 36%;
     background-attachment: fixed;
@@ -56,7 +56,7 @@
     }
 
     .heroContainer {
-        background-image: url("../../../public/assets/story_imgs/img2.png");
+        background-image: url("../../../public/assets/story_imgs/img2.webp");
         background-repeat: no-repeat;
         -o-background-size: cover;
         -moz-background-size: cover;

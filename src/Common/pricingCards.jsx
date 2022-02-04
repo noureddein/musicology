@@ -29,7 +29,7 @@ function PricingCards() {
             <div id='pricingCardsContainer' className='pricingCardsContainer animate'>
                 {
                     prices.map((item, idx) => <Card key={idx} style={{ width: '18rem' }} className='pricingCardContainer'>
-                        <Card.Img variant="top" src='../assets/star.png' />
+                        <Card.Img variant="top" src='../assets/star.webp' />
                         <Card.Body className='card-body-pricing'>
                             <Card.Title>{item.title.toUpperCase()}</Card.Title>
                             <Card.Text>{item.paragraph}</Card.Text>

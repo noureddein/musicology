@@ -3,8 +3,8 @@
 
 .subscribeContainer {
     background-color: #e8631c;
-    background-image: url("../../../public/assets/bgWithLayer.png");
-    background-image: url("../../../public/assets/dots.png");
+    background-image: url("../../../public/assets/bgWithLayer.webp");
+    background-image: url("../../../public/assets/dots.webp");
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: left;
