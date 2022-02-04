@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+.statisticsContainer {
+    background-color: #303030;
+    padding: 10rem 3rem;
+}
+
+.counterContainer > p {
+    color: #fff;
+    text-align: center;
+}
+
+.counterContainer > p:first-child {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+}
+.counterContainer > p:last-child {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+}
+
+.countersCounter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5rem;
+}
+
+@media (max-width: 768px) {
+    .countersCounter {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .counterContainer > p:first-child {
+        font-family: "Oswald", sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .counterContainer > p:last-child {
+        font-family: "Montserrat", sans-serif;
+        font-size: 2rem;
+    }
+    .statisticsContainer {
+        padding: 3rem 0;
+        text-align: center;
+    }
+}

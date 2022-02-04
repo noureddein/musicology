@@ -1,0 +1,17 @@
+* {
+    margin: o;
+    padding: 0;
+}
+
+.pricingContainer {
+    background-color: #303030;
+    margin: 0;
+    padding: 4rem 0;
+    background-image: url("../../../public/assets/whiteDots.png");
+    background-size: 64rem;
+    background-repeat: no-repeat;
+    background-position: -23rem -2rem;
+    background-attachment: fixed;
+    filter: white(100%);
+    overflow: hidden;
+}

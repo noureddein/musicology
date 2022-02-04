@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+.section > img {
+    width: 100%;
+    height: 45rem;
+    object-fit: cover;
+}
+.section {
+    position: relative;
+}
+.section > div {
+    position: absolute;
+    top: calc(100% / 3);
+    left: 0;
+    color: #fff;
+    text-align: center;
+    padding: 0 20%;
+}
+
+.section > div > h4 {
+    font-size: 4rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+}
+
+.section > div > p {
+    font-size: 2rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: 100;
+}

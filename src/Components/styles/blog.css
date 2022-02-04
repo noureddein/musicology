@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+.blogsContainer {
+    width: 100%;
+    background-color: #e8631b;
+}
+.blog1,
+.blog2 {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.blogImgContainer-blog1,
+.blogImgContainer-blog2 {
+    grid-column: 1/3;
+    grid-row: 1/ 2;
+}
+
+.blogImgContainer-blog1 > img,
+.blogImgContainer-blog2 > img {
+    width: 70%;
+    object-fit: fill;
+}
+.articleContainer-blog1,
+.articleContainer-blog2 {
+    grid-column: 3/5;
+}
+
+.articleContainer-blog1 > h3,
+.articleContainer-blog2 > h3 {
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    font-weight: 900;
+    font-size: 70px;
+    margin-bottom: 3rem;
+}
+.articleContainer-blog1 > p,
+.articleContainer-blog2 > p {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+.articleContainer-blog1 > button,
+.articleContainer-blog2 > button {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    color: #fff;
+    border: none;
+    background-color: #303030;
+    padding: 0.75rem 2rem;
+    border-radius: 7px;
+}
+
+/* Blog 2 */
+.articleContainer-blog2 {
+    grid-column: 1/3;
+}
+
+.blogImgContainer-blog2 {
+    grid-column: 3/5;
+    display: flex;
+    justify-content: end;
+}
+
+@media (max-width: 768px) {
+    .blog1,
+    .blog2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .articleContainer-blog1 > button,
+    .articleContainer-blog2 > button {
+        padding: 0.75rem 2rem;
+    }
+
+    .articleContainer-blog1 > p,
+    .articleContainer-blog2 > p {
+        font-size: 18px;
+    }
+
+    .articleContainer-blog1 > h3,
+    .articleContainer-blog2 > h3 {
+        font-size: 50px;
+    }
+
+    .blogImgContainer-blog1 img,
+    .blogImgContainer-blog2 img {
+        width: 100%;
+    }
+    .articleContainer-blog1 h3,
+    .articleContainer-blog2 h3 {
+        margin: 0;
+    }
+    .articleContainer-blog1,
+    .articleContainer-blog2 {
+        padding: 2rem 2rem;
+    }
+}

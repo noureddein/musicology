@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.navBarContainer {
+    background-color: #303030bd;
+    padding: 0.5rem 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    backdrop-filter: blur(10px);
+}
+
+.logoImgContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logoImg {
+    width: 6rem;
+    padding: 0;
+}
+
+.navigationTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navLink {
+    padding: 0 1rem;
+    color: #ffffff !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.searchIcon {
+    width: 1.5rem;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.search-sec input {
+    padding: 0.25rem 0;
+    color: #fff;
+    width: 0;
+    border: none;
+    transition: all 0.4s ease-in-out;
+    border-radius: 5px;
+    font-family: "Oswald", sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    background-color: #707070;
+    outline: 0;
+}
+.search-sec input.isSearchClicked {
+    width: 170px;
+    padding: 0.25rem 1rem;
+}
+
+.search-sec input::placeholder {
+    color: #fff;
+}

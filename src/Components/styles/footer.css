@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+footer {
+    background-color: #303030;
+    padding: 3rem 0;
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    color: #fff;
+}
+
+.discretionContainer {
+    grid-column: span 2;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.other,
+.services,
+.about {
+    padding: 0 3rem;
+}
+
+footer .container > div:nth-child(1n + 2) > h6 {
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+footer .container > div:nth-child(1n + 2) > ul > li > a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    color: #fff;
+}
+
+footer > div:nth-child(1n + 2) > ul > li {
+    padding-bottom: 0.5rem;
+}
+
+.discretionContainer > h4 {
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.discretionContainer > p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.socialMediaIcons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.socialMediaIcons .fab {
+    font-size: 2rem;
+    padding: 0rem 1rem;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.fa-facebook:hover,
+.fa-whatsapp:hover,
+.fa-instagram:hover,
+.fa-twitter:hover {
+    color: #e8631b;
+    transform: translateY(-10px);
+}
+.d-flex {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    footer .container {
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+
+    .other,
+    .services,
+    .about {
+        padding: 3rem auto;
+        text-align: center;
+    }
+
+    .discretionContainer {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .discretionContainer > p {
+        padding: 0 3rem;
+        text-align: justify;
+    }
+    .subscribeContainer .input-group #basic-addon2 {
+        padding: 0.5rem;
+        font-size: 12px;
+        font-weight: 200;
+    }
+}

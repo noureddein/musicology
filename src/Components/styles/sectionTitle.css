@@ -1,0 +1,33 @@
+.title {
+    padding: 0rem 2rem 2rem 2rem;
+    margin: auto;
+}
+.title h2,
+.title p {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+}
+
+.title h2 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.title p {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    .title h2 {
+        font-size: 55px;
+        margin-bottom: 1rem;
+    }
+
+    .title p {
+        font-size: 18px;
+        font-weight: 100;
+    }
+}

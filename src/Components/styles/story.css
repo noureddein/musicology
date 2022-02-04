@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.storyContainer {
+    background-color: #e8631c;
+    background-image: url("../../../public/assets/dots.png");
+    background-size: 64rem;
+    background-repeat: no-repeat;
+    background-position: -23rem -2rem;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 4rem 0;
+    overflow: hidden;
+}
+
+.danceTourCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: -250vw;
+}
+
+.isVisible {
+    margin-left: 0;
+    transition: 1.5s ease;
+}
+
+.danceTourCards img {
+    height: 19rem;
+    width: 100%;
+    border-radius: 0 !important;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 2px;
+}
+
+.card {
+    width: 18rem;
+    border: none !important;
+    background-color: transparent !important;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-body {
+    background-color: #303030;
+    color: #fff;
+    text-align: center;
+}
+
+.card-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+}
+
+.card-title {
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem !important;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    #danceTourCards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px 10px;
+    }
+}

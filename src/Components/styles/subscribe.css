@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+.subscribeContainer {
+    background-color: #e8631c;
+    background-image: url("../../../public/assets/bgWithLayer.png");
+    background-image: url("../../../public/assets/dots.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+    overflow: hidden;
+    padding: 2rem;
+}
+
+.subscribeContainer .input-group > input {
+    border-radius: 0;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: none;
+}
+
+.subscribeContainer .input-group #basic-addon2 {
+    background-color: #303030;
+    color: #fff;
+    border: none;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 0.5rem 3rem;
+    cursor: pointer;
+}
+
+.subscribeContainer > div:last-child {
+    width: 50%;
+    margin: 2rem auto;
+}
+
+@media (max-width: 768px) {
+    .subscribeContainer > div:last-child {
+        width: 80%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .subscribeContainer > div:last-child {
+        width: 70%;
+    }
+}
