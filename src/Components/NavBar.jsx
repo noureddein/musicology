@@ -30,7 +30,7 @@ function NavBar() {
                     </ul>
                 </div>
                 <div className='search-sec'>
-                    <input type="text" className={search ? 'isSearchClicked' : ''} placeholder='Search...' />
+                    <input type="text" className={search ? 'isSearchClicked' : null} placeholder='Search...' />
                     <img className='searchIcon' onClick={() => setSearch(!search)} src={searchIcon} alt="Search Icon" />
                 </div>
             </div>
