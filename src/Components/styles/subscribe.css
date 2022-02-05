@@ -20,6 +20,8 @@
     font-size: 1rem;
     font-weight: 500;
     box-shadow: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .subscribeContainer .input-group #basic-addon2 {
