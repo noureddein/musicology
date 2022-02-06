@@ -4,6 +4,7 @@
 footer {
     background-color: #303030;
     padding: 3rem 0;
+    overflow: hidden;
 }
 
 footer .container {

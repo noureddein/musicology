@@ -4,6 +4,7 @@
 .blogsContainer {
     width: 100%;
     background-color: #e8631b;
+    overflow: hidden;
 }
 .blog1,
 .blog2 {

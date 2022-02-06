@@ -8,7 +8,6 @@
     background-attachment: fixed;
     width: 100vw;
     height: calc(100vh - 4rem);
-    overflow: hidden;
 }
 
 .subtitle {

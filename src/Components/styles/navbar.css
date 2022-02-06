@@ -88,6 +88,11 @@ a {
 }
 
 @media (max-width: 768px) {
+    .logoImg {
+        width: 4rem;
+        height: 100%;
+        padding: 0;
+    }
     .navListsSearchContainer {
         width: 66%;
         display: flex;
@@ -108,7 +113,7 @@ a {
         opacity: 0;
     }
     .navIsVisible {
-        top: 4.2rem;
+        top: 3.1rem;
         transition: all 1s ease-out;
         display: flex;
         flex-direction: column;
@@ -139,5 +144,6 @@ a {
 
     .search-sec input {
         width: 150px;
+        padding-left: 10px;
     }
 }
